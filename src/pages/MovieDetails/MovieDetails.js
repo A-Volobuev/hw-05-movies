@@ -32,7 +32,7 @@ const MovieDetails = () => {
 	console.log(location.state)
 	return(
 		<>
-		<Box bg="#0D0D0D" p="68px 165px" display="flex" flexDirection ="column" height="100vh">
+		<Box bg="#0D0D0D" p="68px 165px" display="flex" flexDirection ="column" minHeight="100vh">
 			<BackLink to={backLinkHref}>
 				<GoBackButton>
 					<BtnBackIcon width="12px" height="12px"/>
