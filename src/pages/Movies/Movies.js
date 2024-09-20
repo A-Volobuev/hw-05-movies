@@ -74,7 +74,7 @@ const Movies = () => {
 			</MoviesContainer>
 
 			<Box bg="#0D0D0D" p="0px 165px" display="flex" justifyContent="center">
-				<Box bg="#FFFFFF" position="relative" top="-112.7px" borderRadius="6px" maxWidth="1068px" minHeight="121px" display="flex" flexDirection="column" alignItems="center">
+				<Box bg="#FFFFFF" position="relative" top="-112.7px" borderRadius="6px" maxWidth="1068px" minHeight="358px" display="flex" flexDirection="column" alignItems="center">
 					<SearchMoviesList movies={moviesList} onLoadMore={onLoadMore} totalMovies={totalMovies} page={page} query={query}/>
 				</Box>
 			</Box>
