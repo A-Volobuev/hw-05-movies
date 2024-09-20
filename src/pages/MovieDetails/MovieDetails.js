@@ -8,6 +8,7 @@ import { BackLink, GoBackButton } from "./MovieDetails.styled";
 
 //! иногда с одного ид приходит другой фильм
 
+
 const MovieDetails = () => {
 	const {movieId} = useParams();
 	const [movieDetails, setMovieDetails] = useState();

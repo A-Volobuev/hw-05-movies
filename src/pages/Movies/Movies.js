@@ -5,7 +5,8 @@ import SearchMoviesList from "pages/Movies/SearchMoviesList/SearchMoviesList";
 import { Box } from "utils/Box";
 import { useSearchParams } from "react-router-dom";
 
-//! Search НЕ РАБОТАЕТ ФОКУС
+//! Search НЕ РАБОТАЕТ ФОКУ
+
 
 const Movies = () => {
 	//?  useState не подходит, нужно сохранять значение в поле юрл

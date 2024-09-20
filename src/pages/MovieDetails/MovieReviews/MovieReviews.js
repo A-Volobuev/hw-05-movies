@@ -8,6 +8,7 @@ const MovieReview = () => {
 	const [movieReview, setMovieReview] = useState();
 	const { movieId } = useParams();
 
+	
 	useEffect(() => {
 		searchReviewByIdAPI
 		.fetchReviewsById(movieId)
