@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hw-05-movies/static/css/main.8ec0ada6.css",
+    "main.js": "/hw-05-movies/static/js/main.c1d3db85.js",
+    "static/media/bg.jpg": "/hw-05-movies/static/media/bg.0a0c8b258b989dbbe98e.jpg",
+    "static/media/movieDefault.svg": "/hw-05-movies/static/media/movieDefault.a102c1f98f6f243f13110227e4703f0a.svg",
+    "static/media/castDefault.svg": "/hw-05-movies/static/media/castDefault.9a0b52f71a631d5bfe4b6f0641e68308.svg",
+    "static/media/logo.svg": "/hw-05-movies/static/media/logo.0146075c3daa951343ef39bf3017ed70.svg",
+    "static/media/reviewsDefault.svg": "/hw-05-movies/static/media/reviewsDefault.dff5e6bcae662dde564a4f1ed4bb3963.svg",
+    "index.html": "/hw-05-movies/index.html",
+    "static/media/cursor.svg": "/hw-05-movies/static/media/cursor.540395416200283be2ad54af2f435825.svg",
+    "static/media/btnBackIcon.svg": "/hw-05-movies/static/media/btnBackIcon.fff225a9d0a97a36cd91577988296085.svg",
+    "main.8ec0ada6.css.map": "/hw-05-movies/static/css/main.8ec0ada6.css.map",
+    "main.c1d3db85.js.map": "/hw-05-movies/static/js/main.c1d3db85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ec0ada6.css",
+    "static/js/main.c1d3db85.js"
+  ]
+}
