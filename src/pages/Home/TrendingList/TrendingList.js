@@ -33,12 +33,6 @@ return (
 				<MoviesListItem key={id}>
 					<NavItem to={`/movies/${id}`} state={{from:location}}>
 						<MoviesImg src={`https://image.tmdb.org/t/p/w500/${known_for? known_for[0].poster_path :poster_path}`}/>
-						{/* <MoviesImg src={known_for && known_for[0] && known_for[0].poster_path
-							? `https://image.tmdb.org/t/p/w500/${known_for[0].poster_path}`
-            : poster_path
-            ? `https://image.tmdb.org/t/p/w500/${poster_path}`
-            : movieDefault
-						}/> */}
 						<MoviesTitleContainer>
 						<MoviesTitle>{known_for? known_for[0].name :title ? title: name }</MoviesTitle>
 						</MoviesTitleContainer>

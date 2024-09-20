@@ -47,7 +47,7 @@ function fetchSearchMovie (query, page){
 
 function fetchMovieById (movieId) {
 	// return fetch(`${searchById_url}${movieId}?`, searchById_options)
-	return fetch(`https://api.themoviedb.org/3/movie/${movieId}?language=en-US`, searchById_options)
+	return fetch(`https://api.themoviedb.org/3/movie/${movieId}?include_adult=false&language=en-US`, searchById_options)
 	.then(res => {
 		if (res.ok) {
 			return res.json();
@@ -58,7 +58,7 @@ function fetchMovieById (movieId) {
 }
 
 function fetchCastById (movieId) {
-	return fetch(`https://api.themoviedb.org/3/movie/${movieId}/credits?language=en-US`, OPTIONS)
+	return fetch(`https://api.themoviedb.org/3/movie/${movieId}/credits?include_adult=false&language=en-US`, OPTIONS)
 	.then(res => {
 		if (res.ok) {
 			return res.json();
