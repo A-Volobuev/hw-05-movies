@@ -29,7 +29,6 @@ export const ProfileImg = styled.img`
 export const ProfileName = styled.h5`
 	margin: 5px 0px 0px 0px;
 	text-align: center;
-	/* font-family: Roboto; */
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 15.6px;
@@ -40,7 +39,6 @@ export const ProfileName = styled.h5`
 export const ProfileCharacterTitle= styled.p`
 	margin: 0px 0px 10px 0px;
 	text-align: center;
-	/* font-family: Roboto; */
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 13px;
@@ -56,7 +54,6 @@ export const ProfileCharacterTitle= styled.p`
 export const NotFindTitle = styled.h5`
 	margin: 0px;
 	padding: 21px 0px;
-	/* font-family: Roboto; */
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;

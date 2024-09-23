@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const NavItem = styled(NavLink)`
 display: flex;
 align-items: center;
-font-family: Roboto;
 font-size: 18px;
 color: #FFFFFF;
 line-height: 21.09px;
@@ -16,6 +15,7 @@ position: relative;
 
 &.active{
 	color: #E10914;
+	font-weight: 700;
 }
 
 &.active::after{

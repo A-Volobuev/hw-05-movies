@@ -59,7 +59,6 @@ export const CommentsName = styled.p`
 export const NotFindTitle = styled.h5`
 	margin: 0px;
 	padding: 21px 0px;
-	/* font-family: Roboto; */
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;

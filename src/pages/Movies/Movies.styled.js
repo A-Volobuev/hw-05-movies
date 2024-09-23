@@ -12,7 +12,6 @@ export const MoviesContainer = styled.div`
 `;
 
 export const Title = styled.h2`
-	font-family: Roboto;
 	margin: 35px 0px 0px 0px;
 	text-transform: uppercase;
 	font-weight: 800;

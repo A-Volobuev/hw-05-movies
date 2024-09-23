@@ -10,7 +10,6 @@ export const MoviesImg = styled.img`
 export const Title = styled.h2`
 max-width: 565px;
 	margin: 0px;
-	font-family: Roboto;
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 24px;
@@ -21,7 +20,6 @@ max-width: 565px;
 
 export const VoteAverage = styled.span`
 	margin-top: 4px;
-	font-family: Roboto;
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 14px;
@@ -37,7 +35,6 @@ export const VoteAveragePoint = styled.span`
 export const OverviewTitle = styled.h4`
 max-width: 565px;
 	margin: 0px 0px 4px 0px;
-	font-family: Roboto;
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 16px;
@@ -48,7 +45,6 @@ max-width: 565px;
 export const OverviewText = styled.p`
 max-width: 565px;
 	margin-bottom: 4px;
-	/* font-family: Roboto; */
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 12px;
@@ -57,7 +53,6 @@ max-width: 565px;
 `;
 
 export const GenresTitle = styled.p`
-	font-family: Roboto;
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 16px;
@@ -69,7 +64,6 @@ export const GenresTitle = styled.p`
 
 export const GenresText = styled.p`
 	max-width: 565px;
-	font-family: Roboto;
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 12px;

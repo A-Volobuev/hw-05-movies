@@ -60,7 +60,6 @@ export const NavItem = styled(NavLink)`
 `;
 
 export const MoviesTitle = styled.h4`
-	font-family: Roboto;
 	margin: 0;
 	font-weight: 500;
 	font-size: 12px;
@@ -71,7 +70,6 @@ export const MoviesTitle = styled.h4`
 `;
 
 export const LoadMoreBtn = styled.button`
-	font-family: Roboto;
 	padding: 11px 25px;
 	margin-bottom: 21px;
 	background-color: #D00812;
@@ -89,7 +87,6 @@ export const LoadMoreBtn = styled.button`
 
 export const NotFindTitle = styled.h4`
 	margin: 0px;
-	font-family: Roboto;
 	text-transform: uppercase;
 	color: #0E1721;
 	font-size: 16px;
@@ -100,7 +97,6 @@ export const NotFindTitle = styled.h4`
 
 export const NotFindsubTitle = styled.h5`
 	margin: 16px 0px 43px 0px;
-	font-family: Roboto;
 	color: #0E1721;
 	font-size: 14px;
 	letter-spacing: 0.03em;
@@ -114,7 +110,6 @@ export const NotFindList= styled.ul`
 `;
 
 export const NotFindListItem = styled.li`
-	font-family: Roboto;
 	color: #0E1721;
 	font-size: 14px;
 	letter-spacing: 0.03em;

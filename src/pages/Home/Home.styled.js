@@ -12,7 +12,6 @@ export const HomeContainer = styled.div`
 `;
 
 export const FirstTitle = styled.h2`
-	/* font-family: Roboto; */
 	margin: 40px 0px 0px 0px;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -25,7 +24,6 @@ export const FirstTitle = styled.h2`
 `;
 
 export const SecondTitle = styled.h2`
-	/* font-family: Roboto; */
 	margin: 0px;
 	text-transform: uppercase;
 	font-weight: 900;

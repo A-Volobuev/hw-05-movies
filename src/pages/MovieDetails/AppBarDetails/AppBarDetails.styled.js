@@ -4,7 +4,6 @@ import cursorSvg from '../../../image/cursor.svg';
 
 export const Title = styled.h3`
 	text-transform: uppercase;
-	/* font-family: Roboto; */
 	margin: 21px 0px 18px 0px;
 	font-weight: 500;
 	font-size: 16px;

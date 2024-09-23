@@ -60,7 +60,6 @@ export const NavItem = styled(NavLink)`
 `;
 
 export const MoviesTitle = styled.h4`
-	font-family: Roboto;
 	margin: 0;
 	font-weight: 500;
 	font-size: 12px;

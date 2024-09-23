@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { Link } from "react-router-dom";
 
 export const BackLink = styled(Link)`
-	font-family: Roboto;
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 10px;
