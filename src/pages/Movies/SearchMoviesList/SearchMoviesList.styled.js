@@ -5,14 +5,13 @@ import cursorSvg from '../../../image/cursor.svg'
 export const MoviesList = styled.ul`
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	gap: 36px 21px;
 	padding: 21px;
 	list-style-type: none;
 `;
 
 export const MoviesListItem = styled.li`
 	position: relative;
-	margin-bottom: 36px;
 	height: 300px;
 
 `;
